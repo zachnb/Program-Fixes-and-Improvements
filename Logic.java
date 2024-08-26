@@ -96,7 +96,7 @@ public class Logic implements Data {
     public static void logger(String warning) {
         
             BufferedWriter writer = null;
-            // Crate new file object
+            // Create new file object
             File file = new File("C:\\Users\\Public\\"
                             + "Audit.txt");
             // Initialize variable for file existence
@@ -162,7 +162,7 @@ public class Logic implements Data {
                 
                 protected PasswordAuthentication getPasswordAuthentication() {
                     // Specify login credentials
-                    return new PasswordAuthentication("zazbro92@gmail.com",
+                    return new PasswordAuthentication("zb116622@gmail.com",
                             "omfqjopkouixlmut");
                 }
             });
